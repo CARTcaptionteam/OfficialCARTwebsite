@@ -694,12 +694,12 @@ a.text-warning:focus {
 }
 
 .text-error {
-  color: #b94a48;
+  color: #0B36D5;
 }
 
 a.text-error:hover,
 a.text-error:focus {
-  color: #953b39;
+  color: #0b2fd7;
 }
 
 .text-info {
@@ -1496,7 +1496,7 @@ input[type="checkbox"][readonly] {
 .control-group.error .control-label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
-  color: #b94a48;
+  color: #0B36D5;
 }
 
 .control-group.error .checkbox,
@@ -1504,13 +1504,13 @@ input[type="checkbox"][readonly] {
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  color: #b94a48;
+  color: #0B36D5;
 }
 
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  border-color: #b94a48;
+  border-color: #0B36D5;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
      -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1519,7 +1519,7 @@ input[type="checkbox"][readonly] {
 .control-group.error input:focus,
 .control-group.error select:focus,
 .control-group.error textarea:focus {
-  border-color: #953b39;
+  border-color: #0b2fd7;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
      -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
@@ -1527,9 +1527,9 @@ input[type="checkbox"][readonly] {
 
 .control-group.error .input-prepend .add-on,
 .control-group.error .input-append .add-on {
-  color: #b94a48;
+  color: #0B36D5;
   background-color: #f2dede;
-  border-color: #b94a48;
+  border-color: #0B36D5;
 }
 
 .control-group.success .control-label,
@@ -1613,7 +1613,7 @@ input[type="checkbox"][readonly] {
 input:focus:invalid,
 textarea:focus:invalid,
 select:focus:invalid {
-  color: #b94a48;
+  color: #0B36D5;
   border-color: #ee5f5b;
 }
 
@@ -3912,14 +3912,14 @@ input[type="submit"].btn.btn-mini {
 
 .alert-danger,
 .alert-error {
-  color: #b94a48;
+  color: #0B36D5;
   background-color: #f2dede;
   border-color: #eed3d7;
 }
 
 .alert-danger h4,
 .alert-error h4 {
-  color: #b94a48;
+  color: #0B36D5;
 }
 
 .alert-info {
@@ -5672,12 +5672,12 @@ a.badge:focus {
 
 .label-important,
 .badge-important {
-  background-color: #b94a48;
+  background-color: #0B36D5;
 }
 
 .label-important[href],
 .badge-important[href] {
-  background-color: #953b39;
+  background-color: #0b2fd7;
 }
 
 .label-warning,

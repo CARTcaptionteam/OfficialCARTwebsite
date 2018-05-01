@@ -659,7 +659,7 @@ select.selectmenu {
   top: 0;
   left: 0;
   padding: 0 0 0;
-  color: #ed4e6e;
+  color: #00aeec;
 }
 
 .grid figcaption div {
@@ -1049,7 +1049,6 @@ select.selectmenu {
 
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
-}
 
 /* --- comment form ---- */
 
@@ -2633,11 +2632,11 @@ ul.the-icons {
 /* colors */
 
 .options_box a.t_default {
-  background: #e96b56;
+  background: #00AEEC;
 }
 
 .options_box a.t_stamp {
-  background: #D2391D;
+  background: #0B35D5;
 }
 
 .options_box a.t_jeans {
@@ -2704,7 +2703,7 @@ ul.the-icons {
 
 #accent_color {
   color: #fff;
-  background: #ef5523;
+  background: #00aeec;
   border: none;
   text-transform: uppercase;
   margin-left: 2px;
