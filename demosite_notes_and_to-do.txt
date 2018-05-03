@@ -1,0 +1,14 @@
+Notes from Demo Sites and To-Do for final
+======================================================
+
+-	Use Eterna template as base
+-	Move logo above navbar
+-	Center navbar and logo on screen
+-	Enlarge logo
+-	Center body text and icons
+-	Adjust Icon colors to match/complement logo
+-	Service icons should be changed to better reflect services
+-	Service icons should link to individual about pages for each service
+-	Service about pages should each link to the contact form in addition to the navbar link
+-	Keep in mind a place on the home and/or about pages to put award and certification icons
+-	Logo blue preferred to logo green for accents
