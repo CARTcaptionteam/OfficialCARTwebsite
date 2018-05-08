@@ -659,7 +659,7 @@ select.selectmenu {
   top: 0;
   left: 0;
   padding: 0 0 0;
-  color: #00aeec;
+  color: #ed4e6e;
 }
 
 .grid figcaption div {
@@ -1048,7 +1048,8 @@ select.selectmenu {
 }
 
 #sendmessage.show, #errormessage.show, .show {
-	display:block;
+  display:block;
+}
 
 /* --- comment form ---- */
 
@@ -2350,6 +2351,7 @@ ul.the-icons {
   header .logo {
     float: none;
     text-align: center;
+    size: 2in;
   }
   ul.social-network {
     float: none;
@@ -2632,11 +2634,11 @@ ul.the-icons {
 /* colors */
 
 .options_box a.t_default {
-  background: #00AEEC;
+  background: #e96b56;
 }
 
 .options_box a.t_stamp {
-  background: #0B35D5;
+  background: #D2391D;
 }
 
 .options_box a.t_jeans {
@@ -2703,7 +2705,7 @@ ul.the-icons {
 
 #accent_color {
   color: #fff;
-  background: #00aeec;
+  background: #ef5523;
   border: none;
   text-transform: uppercase;
   margin-left: 2px;
