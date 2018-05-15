@@ -10,6 +10,9 @@
 /* === fontawesome === */
 
 @import url('font-awesome.css');
+
+
+
 /* ==== overwrite bootstrap standard ==== */
 
 @import url('overwrite.css');
@@ -182,6 +185,7 @@ header {
   background: #fff;
   margin: 0;
   padding: 0 0 20px;
+  padding-bottom: 4%;
   position: relative;
   z-index: 2000;
   -webkit-box-shadow: 0 2px 4px -2px #ddd;
@@ -352,6 +356,21 @@ select.selectmenu {
   padding: 50px 0;
 }
 
+#whatiscart {
+  position: fixed;
+  top: 20%;
+}
+
+.cartmachine {
+  position: relative;
+  width: 100%
+}
+.whatiscart {
+  position: absolute;
+  top: 10%
+}
+
+
 /* ===================================
 6. Sliders
 ==================================== */
@@ -383,7 +402,7 @@ select.selectmenu {
 }
 
 .camera_prev>span:before {
-  content: "\f104";
+  
   font-family: 'FontAwesome';
   color: #fff;
   padding: 20px 20px 20px 10px;
@@ -392,7 +411,7 @@ select.selectmenu {
 }
 
 .camera_next>span:before {
-  content: "\f105";
+ 
   font-family: 'FontAwesome';
   color: #fff;
   padding: 20px 20px 20px 20px;
@@ -417,8 +436,7 @@ select.selectmenu {
 .ls-highlighted-h.color {
   padding: 4px 8px;
   color: #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+ 
   border-radius: 5px;
 }
 
@@ -429,14 +447,10 @@ select.selectmenu {
   background: #fff;
   border: none;
   position: relative;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -o-border-radius: 0;
+ 
   border-radius: 0;
   box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -o-box-shadow: none;
+ 
   zoom: 1;
 }
 
@@ -444,21 +458,15 @@ select.selectmenu {
   background: #fff;
   border: none;
   position: relative;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0;
+  
   box-shadow: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -o-box-shadow: none;
+ 
   zoom: 1;
 }
 
 /* ===================================
 7. Section: Content
 ==================================== */
-
 #content {
   position: relative;
   background: #fff;
