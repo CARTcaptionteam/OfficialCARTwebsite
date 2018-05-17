@@ -32,6 +32,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* === Source Sans Pro === */
+@font-face {
+font-family: "SourceSansPro";
+src: url("fonts/SourceSansPro.ttf") format("truetype");
+}
+
 /* FONT AWESOME CORE
  * -------------------------- */
 [class^="icon-"],

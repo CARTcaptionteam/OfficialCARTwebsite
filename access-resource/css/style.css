@@ -49,7 +49,7 @@
 ==================================== */
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'SourceSansPro', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.6em;
@@ -113,6 +113,11 @@ h4.title {
 .container {
   padding: 0 20px 0 20px;
   position: relative;
+}
+
+.imgcontainer {
+  padding: 0;
+  width: 100%;
 }
 
 #wrapper {
@@ -356,18 +361,35 @@ select.selectmenu {
   padding: 50px 0;
 }
 
-#whatiscart {
-  position: fixed;
-  top: 20%;
+.whatiscart {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  padding-top: 10%;
 }
 
 .cartmachine {
   position: relative;
   width: 100%
+  z-index: -1;
 }
-.whatiscart {
-  position: absolute;
-  top: 10%
+
+.whatiscart li {
+  background: none;
+  outline: 0;
+  font-weight: 600;
+  outline: 0;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  text-shadow: none;
+  background-color: #00aeec; 
+  border-radius: 3px;
+  padding: 10px 10px 10px 10px;
+}
+
+.whatiscart li a:active {
+  background-color: #0b2fd7;
 }
 
 
@@ -467,6 +489,7 @@ select.selectmenu {
 /* ===================================
 7. Section: Content
 ==================================== */
+
 #content {
   position: relative;
   background: #fff;
