@@ -147,7 +147,12 @@
             <form action="mailto:services@access-resource.com" method="post" role="form" class="contactForm">
               <div class="row">
                 <div class="span4 form-group field">
-                  <input type="text" name="name" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="firstname" id="firstname" placeholder="Your First Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+
+                <div class="span4 form-group field">
+                  <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
                 </div>
 
@@ -155,10 +160,25 @@
                   <input type="email" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validation"></div>
                 </div>
-                <div class="span8 form-group">
-                  <input type="text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+
+                <div class="span4 form-group">
+                  <input type="text" name="number" id="number" placeholder="Your Phone Number" data-rule="minlen:10" data-msg="Please enter a 10-digit phone number" />
                   <div class="validation"></div>
                 </div>
+
+                <div class="span8 form-group">
+                  <input type="text" name="service" id="service" placeholder="Who is this service for? (e.g. you, child, friend, etc.)" data-rule="minlen:5" data-msg="Please enter at least 5 chars" />
+                  <div class="validation"></div>
+                </div>
+
+               <div class="span8 form-group">
+                <select name="cars">
+                  <option value="CART">CART</option>
+                  <option value="captioning">Captioning</option>
+                  <option value="interpreting">Interpreting</option>
+                  <option value="transcription">Transcription</option>
+                </select>
+               </div>
                 <div class="span8 form-group">
                   <textarea name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>

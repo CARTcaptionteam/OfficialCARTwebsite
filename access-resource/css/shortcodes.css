@@ -244,7 +244,7 @@ i.icon-bgdark {
 /* bg primary */
 i.icon-bgprimary {
 	color:#fff;
-	background: #36739D;
+	background: #0b2fd7;
 }
 
 i.icon-bgprimary:hover{
@@ -255,7 +255,7 @@ i.icon-bgprimary:hover{
 /* bg warning */
 i.icon-bgwarning {
 	color:#fff;
-	background: #DABB3A;
+	background: #999;
 }
 
 i.icon-bgwarning:hover{
@@ -266,7 +266,7 @@ i.icon-bgwarning:hover{
 /* bg danger */
 i.icon-bgdanger {
 	color:#fff;
-	background: #cc6633;
+	background: #38b54b;
 }
 
 i.icon-bgdanger:hover{
@@ -277,7 +277,7 @@ i.icon-bgdanger:hover{
 /* bg success */
 i.icon-bgsuccess {
 	color:#fff;
-	background: #6F9B63;
+	background: #262424;
 }
 
 i.icon-bgsuccess:hover{
