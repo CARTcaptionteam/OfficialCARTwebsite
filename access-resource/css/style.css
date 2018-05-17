@@ -388,8 +388,8 @@ select.selectmenu {
   padding: 10px 10px 10px 10px;
 }
 
-.whatiscart li a:active {
-  background-color: #0b2fd7;
+.whatiscart li>a:hover {
+  background-color: #262424;
 }
 
 
