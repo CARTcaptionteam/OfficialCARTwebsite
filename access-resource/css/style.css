@@ -201,8 +201,9 @@ iframe {
   border: none;
   height: 500px;
   width: 75%;
+  text-align: center;
 }
-}
+
 
 img.img-polaroid {
   margin: 0 0 20px 0;
