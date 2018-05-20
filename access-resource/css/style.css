@@ -924,6 +924,19 @@ select.selectmenu {
   right: 20px;
 }
 
+#what_is_cart {
+  padding-top: 2%;
+}
+
+#demo {
+  padding-top: 5%;
+}
+
+#stFrame {
+  height: 90%;
+  width: 75%;
+}
+
 /* ===================================
 9. Section: Bottom
 ==================================== */
