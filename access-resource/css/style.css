@@ -136,6 +136,13 @@ h4.title {
   padding: 0 20px 0 20px;
   position: relative;
 }
+.container a{
+  color: #00aeec;
+  text-decoration: none
+}
+.container a:hover{
+  color: #999;
+}
 
 .imgcontainer {
   padding: 0;
