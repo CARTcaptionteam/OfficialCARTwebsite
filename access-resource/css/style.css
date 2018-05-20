@@ -192,6 +192,9 @@ h4.title {
 
 iframe {
   border: none;
+  height: 500px;
+  width: 75%;
+}
 }
 
 img.img-polaroid {
@@ -932,11 +935,6 @@ select.selectmenu {
   padding-top: 5%;
 }
 
-#stFrame {
-  height: 90%;
-  width: 75%;
-}
-
 /* ===================================
 9. Section: Bottom
 ==================================== */
@@ -1055,6 +1053,12 @@ select.selectmenu {
 
 #sendmessage.show, #errormessage.show, .show {
   display:block;
+}
+
+.number {
+  text-align: center;
+  justify-content: center;
+  min-width: 100%;
 }
 
 /* --- comment form ---- */
