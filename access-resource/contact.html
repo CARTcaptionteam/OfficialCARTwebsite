@@ -66,7 +66,7 @@
        <!--====Logo====-->
 
             <div class="logo">
-                <a href="index-alt2.html"><img src="img/logo.png" alt="Access Resource Logo" /></a>
+                <a href="index.html"><img src="img/logo.png" alt="Access Resource Logo" /></a>
 
           
       <!--====Navbar====-->
@@ -83,19 +83,20 @@
                     </li>
                     <li class="dropdown">
                       <a href="WhatIsCart.html">What is CART <i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="WhatIsCart.html">Description</a></li>
-                        <li><a href="WhatIsCart.html">Demo</a></li>
+                       <ul class="dropdown-menu">
+                        <li><a href="WhatIsCart.html#what_is_cart">Description</a></li>
+                        <!--<li><a href="WhatIsCart.html">Demo</a></li>-->
                       </ul>
+                    </li>
                     </li>
                     <li class="dropdown">
                       <a href="about.html">About Us <i class="icon-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="about.html">Mission Statement</a></li>
-                        <li><a href="about.html">Meet the Team</a></li>
-                        <li><a href="about.html">Pictures</a></li>
-                        <li><a href="about.html">Testimonials</a></li>
-                      </ul>
+                       <ul class="dropdown-menu">
+                        <li><a href="about.html#mission_statement">Mission Statement</a></li>
+                        <li><a href="about.html#meet_the_team">Meet the Team</a></li>
+                        <!--<li><a href="about.html#pictures">Pictures</a></li>-->
+                        <li><a href="about.html#testimonials">Testimonials</a></li>
+                      </ul> 
                     </li>
                     <li class="dropdown">
                       <a href="services.html">Services <i class="icon-angle-down"></i></a>
@@ -166,21 +167,18 @@
                   <div class="validation"></div>
                 </div>
 
-                <div class="span8 form-group">
-                  <input type="text" name="service" id="service" placeholder="Who is this service for? (e.g. you, child, friend, etc.)" data-rule="minlen:5" data-msg="Please enter at least 5 chars" />
+                <div class="span4 form-group">
+                  <input type="text" name="recipient" id="recipient" placeholder="Who is this service for? (e.g. you, child, friend, etc.)" data-rule="minlen:5" data-msg="Please enter at least 5 chars" />
                   <div class="validation"></div>
                 </div>
 
-               <div class="span8 form-group">
-                <select name="cars">
-                  <option value="CART">CART</option>
-                  <option value="captioning">Captioning</option>
-                  <option value="interpreting">Interpreting</option>
-                  <option value="transcription">Transcription</option>
-                </select>
-               </div>
+                <div class="span4 form-group">
+                  <input type="text" name="service" id="service" placeholder="What service do you need?" data-rule="minlen:5" data-msg="Please enter a service (CART, Captioning, Interpreting, Transcription)w" />
+                  <div class="validation"></div>
+                </div>
+
                 <div class="span8 form-group">
-                  <textarea name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <textarea name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="In a few sentences, please describe more about your specific situation, including the date, time, and location"></textarea>
                   <div class="validation"></div>
                   <div class="text-center">
                     <button class="btn btn-theme btn-medium margintop10" type="submit">Send a message</button>
