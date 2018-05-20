@@ -2762,4 +2762,30 @@ ul.the-icons {
   background: url(../img/bodybg/bg10.png) repeat left top;
 }
 
+.myImage {
+  float: right;
+  
+  height: 15em;
+  width: 15em;
+  font-family: Veranda;
+  padding-left:20%;
+  padding-right:20%;
+}
+.column {
+    float: left;
+    width: 50%;
+    position:relative;
+    overflow: auto;
+    border-left: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    float:center;
+}
+
+
 /* Theme Styler :: End */
