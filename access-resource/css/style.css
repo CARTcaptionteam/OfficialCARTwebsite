@@ -136,6 +136,13 @@ h4.title {
   padding: 0 20px 0 20px;
   position: relative;
 }
+.container a{
+  color: #00aeec;
+  text-decoration: none
+}
+.container a:hover{
+  color: #999;
+}
 
 .imgcontainer {
   padding: 0;
@@ -192,6 +199,9 @@ h4.title {
 
 iframe {
   border: none;
+  height: 500px;
+  width: 75%;
+}
 }
 
 img.img-polaroid {
@@ -924,6 +934,14 @@ select.selectmenu {
   right: 20px;
 }
 
+#what_is_cart {
+  padding-top: 2%;
+}
+
+#demo {
+  padding-top: 5%;
+}
+
 /* ===================================
 9. Section: Bottom
 ==================================== */
@@ -1042,6 +1060,12 @@ select.selectmenu {
 
 #sendmessage.show, #errormessage.show, .show {
   display:block;
+}
+
+.number {
+  text-align: center;
+  justify-content: center;
+  min-width: 100%;
 }
 
 /* --- comment form ---- */
